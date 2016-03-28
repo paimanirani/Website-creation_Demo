@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Coding Assignment</title>
+<style>
+body{
+  font-family: Arial;
+}
+
+* {
+
+  box-sizing: border-box;
+/*margin: 0; */
+/*padding: 0;*/
+}
+h1 {
+font-size: 75%;
+  margin-bottom: 15px;
+  text-align: center;
+}
+p{
+ margin: 0;
+   width: 30%;
+   height: auto;
+   text-align: center;
+   border: 1px solid black;
+     padding: 1px;
+
+    
+  }
+
+  section > .title
+  {
+    font-size: 25%;
+    position: absolute;
+   margin-bottom: 1px;
+    top: 0;
+    right: 0;
+   background-color: red;
+   
+  }
+section
+{
+  position: relative;
+   float: left;
+   border: 1px solid black; 
+   padding: 30px 10px 10px 10px;
+  margin: 5px;
+   height: auto;
+   background: gray;
+   
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+
+
+}
+/********** Desktop Version **********/
+@media (min-width: 992px) {
+
+  .col-lg-1 {
+    width: 32%;
+  }
+ 
+  
+}
+/********** Tablet Version **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+
+  .col-md-1 {
+    width: 50%;
+  }
+  .col-md-2 {
+    width: 100%;
+  }
+ 
+}
+/********** Mobile Version **********/
+@media (max-width: 767px) {
+  
+  .col-xs-1 {
+    width: 100%;
+  }
+  
+ 
+}
+</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+
+<section class="col-lg-1 col-md-1 col-xs-1" >
+<p class="title">Chicken</p>
+   Chicken meat contains about two to three times as much polyunsaturated fat than most types of red meat when measured as weight percentage.Chicken generally includes low fat in the meat itself (castrated roosters excluded). The fat is highly concentrated on the skin. A 100g serving of baked chicken breast contains 4 grams of fat and 31 grams of protein, compared to 10 grams of fat and 27 grams of protein for the same portion of broiled, lean skirt steak.
+</section>
+<section class="col-lg-1 col-md-1 col-xs-1" >
+<p class="title">Beef</p>
+  Beef can be cooked to various degrees, from very rare to well done. The degree of cooking corresponds to the temperature in the approximate center of the meat, which can be measured with a meat thermometer. Beef can be cooked using the sous-vide method, which cooks the entire steak to the same temperature, but when cooked using a method such as broiling or roasting it is typically cooked such that it has a "bulls eye" of doneness, with the least done (coolest) at the center and the most done (warmest) at the outside.
+</section>
+<section class="col-lg-1 col-md-2 col-xs-1" >
+<p class="title">Sushi</p>
+  Sushi-meshi(also known as Su-meshi, shari, or gohan) is a preparation of white, short-grained, Japanese rice mixed with a dressing consisting of rice vinegar, sugar, salt, and occasionally kombu and sake. It has to be cooled to room temperature before being used for a filling in a sushi or else it will get too sticky while being seasoned. Traditionally, the mixing is done with a hangiri, which is a round, flat-bottom wooden tub or barrel, and a wooden paddle (shamoji).
+</section>
+
+</body>
+</html>
